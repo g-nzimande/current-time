@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+
+  body {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+       background: grey;
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+  }
+
+  .glow {
+       font-size: 60px;
+       color: peru;
+       font-weight: bold;
+       animation: glow 3s ease-in-out infinite alternate;
+       -moz-animation: glow 3s ease-in-out infinite alternate;
+       -webkit-animation: glow 3s ease-in-out infinite alternate;
+  }
